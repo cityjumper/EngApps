@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration target="target.mlapps" target-name="Package App" name="MyFirstApp" location="/Users/Gareth/EngApps" file="/Users/Gareth/EngApps/MyFirstApp.prj" build-checksum="3860462183">
+    <param.appname>MyFirstApp</param.appname>
+    <param.authnamewatermark>Gareth</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Testing</param.summary>
+    <param.description>Testing creating an APP</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}/MyFirstApp.mlappinstall</param.output>
+    <param.guid>6f1fb59d-0810-46a6-99dd-8379a38c0bd4</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/myfirstApp.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/myfirstApp.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file name="MyFirstApp.mlappinstall" location="/Users/Gareth/EngApps" optional="false">/Users/Gareth/EngApps/MyFirstApp.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2013b.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.9.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
+
